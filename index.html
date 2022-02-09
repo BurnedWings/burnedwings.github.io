@@ -1,0 +1,52 @@
+<!--
+ * @Description: 
+ * @Author: lz
+ * @Date: 2022-02-08 22:48:00
+ * @LastEditors: lz
+ * @LastEditTime: 2022-02-09 01:08:03
+-->
+<!DOCTYPE html>
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 悬挂的喵 -->
+<link rel="stylesheet" type="text/css" href="./css/szgotop.css" />
+<link rel="stylesheet" href="./css/top.css">
+<style>
+      body {
+            height: 3000px;
+        }
+        /* 设置滚动条的样式 */
+::-webkit-scrollbar {
+    width: 6px;
+}
+/* 滚动槽 */
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background:linear-gradient(#ef629f,#eecda3);
+    -webkit-box-shadow: inset006pxrgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255, 0, 0, 0.4);
+}
+</style>
+</head>
+<body>
+    <div class="bar"></div>
+    <div class="container"></div>
+    <div class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -999px;"></div>
+</body>
+<script src="./js/jquery-3.5.1.min.js"></script>
+<script src="./js/szgotop.js"></script>
+<script src="https://l2dwidget.js.org/lib/L2Dwidget.min.js"></script>
+<script src="./js/live2d.js"></script>
+<script src="./js/top.js"></script>
+</html>
