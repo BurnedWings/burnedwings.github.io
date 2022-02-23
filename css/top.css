@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+}
+.top-bar{
+    position: fixed;
+    top:0;
+    left:0;
+    width:0%;
+    height:3px;
+    background: palevioletred;
+    box-shadow: 0 1.5px 3px palevioletred;
+    /* background: #15BCBC;
+    box-shadow: 0 1px 2px #15BCBC; */
+    
+}
+.container-bottom{
+    width:100%;
+    height:4500px;
+    background: #fff;
+}
+a {
+    cursor: url(../cur/ayuda.cur), auto;
+}
